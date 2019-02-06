@@ -1,0 +1,7 @@
+.brd {
+    border: 4px darkslategrey; /* Параметры границы */
+    background: lightgoldenrodyellow; /* Цвет фона */
+    padding: 6px; /* Поля вокруг текста */
+    border-radius: 6px; /* закругление */
+    margin: 5px; /* рамка вокруг виджета */
+    width: 33%; /* ширина виджета */
