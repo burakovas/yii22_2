@@ -59,9 +59,6 @@ use \yii\widgets\ActiveForm;
         <script src="http://frontend.local.dev:8888/client.js"></script>
     </div>
 
-    <!DOCTYPE html>
-    <meta charset="utf-8" />
-    <title>WebSocket Test</title>
     <script language="javascript" type="text/javascript">
 
         var wsUri = "wss://echo.websocket.org/";
