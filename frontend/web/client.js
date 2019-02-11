@@ -1,9 +1,9 @@
 if (!window.Websocket) {
-    alert("Your browser do not support sockets!!");
+    alert("Your browser do not support 111sockets!!");
 
 }
 
-var webSocket =new WebSocket("ws://localhost:8081");
+var webSocket =new WebSocket("ws://frontend.local.dev:8081");
 
 document.getElementById("chat_form")
     .addEventListener('submit', function (event) {
