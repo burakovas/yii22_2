@@ -47,4 +47,14 @@ use \yii\widgets\ActiveForm;
         <?php endforeach; ?>
     </div>
 
+    <form action="" name="chat_form" id="chat_form">
+        <input>
+            введите сообщение
+            <input type="hidden" name="id" value="<?= $model->id?> \n">
+            <input type="text" name="message"/>
+            <input type="submit"/>
+        </label>
+    </form>
+    <div id="root_chat"></div>
+    <script src="client.js"></script>
 </div>

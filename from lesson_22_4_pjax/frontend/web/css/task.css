@@ -1,0 +1,25 @@
+.preview-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.task-container {
+    margin: 12px;
+}
+
+.task-preview-link {
+    color: inherit;
+}
+
+.task-preview-link:hover {
+    text-decoration: none;
+}
+
+.task-preview {
+    width: 235px;
+    height: 120px;
+    box-sizing: border-box;
+    border: 1px solid dimgray;
+    padding: 12px;
+}
